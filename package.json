@@ -36,6 +36,7 @@
 	},
 	"type": "module",
 	"dependencies": {
+		"@sentry/sveltekit": "^7.61.1",
 		"@sveltejs/adapter-node": "^1.3.1"
 	}
 }

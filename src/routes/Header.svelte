@@ -25,6 +25,9 @@
 			<li aria-current={$page.url.pathname.startsWith('/server-error') ? 'page' : undefined}>
 				<a href="/server-error">Server Error</a>
 			</li>
+			<li aria-current={$page.url.pathname.startsWith('/api-error') ? 'page' : undefined}>
+				<a href="/api-error">API Server Error</a>
+			</li>
 		</ul>
 		<svg viewBox="0 0 2 3" aria-hidden="true">
 			<path d="M0,0 L0,3 C0.5,3 0.5,3 1,2 L2,0 Z" />
